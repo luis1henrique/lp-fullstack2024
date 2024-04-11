@@ -1,0 +1,10 @@
+# Online Python - IDE, Editor, Compiler, Interpreter
+print("instagram")
+print("digite seu nome de usuario e senha")
+nomeusuario = input() 
+senha = input()
+
+if(nomeusuario =="lulu1henri" and senha == "lulu2006"):
+    print("logado com sucesso!")
+else:
+    print("usuario ou senha invalidos")

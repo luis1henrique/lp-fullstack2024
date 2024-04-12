@@ -1,0 +1,17 @@
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+saldo = int(input("informe o saldo inicial")) #texto
+encerrar = "n"
+while(encerrar == "n"):
+        tipo = int(input("informe tipo de emtrega. 1- compra ou 2-venda"))
+        quantidade = int(input("informe a quantidade"))
+        
+        if(tipo == 1): #se a condição for verdade, executa a soma
+            saldo = saldo + quantidade
+            print("entrada de:" + str(saldo))
+        elif(tipo == 2 and quantidade <= saldo):
+            saldo = saldo - quantidade
+        else:
+            print("saldo insuficiente")
+        encerrar = input("deseja encerrar o programa? s para encerrar/ n para usado") 
+print("O saldo final é:" + str(saldo))

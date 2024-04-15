@@ -1,0 +1,9 @@
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+print("SOMA")
+
+A = int(input("qual o valor de A"))
+B = int(input("qual o valor de B"))
+
+soma = A + B
+print( f'A soma de {A} + {B} é: {soma}' )

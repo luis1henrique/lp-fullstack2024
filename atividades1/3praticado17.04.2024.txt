@@ -1,0 +1,17 @@
+raio = float(input())
+area = 3.14159 * raio ** 2
+print('A=%.4f' %area)
+
+-
+
+A= int(input())
+B= int(input())
+SOMA = A + B
+print("SOMA =" + str (SOMA))
+
+-
+
+A= int(input())
+B= int(input())
+PROD = A + B
+print("PROD =" + str (PROD))

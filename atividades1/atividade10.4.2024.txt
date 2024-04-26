@@ -1,0 +1,25 @@
+# Online Python - IDE, Editor, Compiler, Interprete
+#indagar uma pessoa 4 vezes se ela foi
+#pro role da daniele.
+#caso a pessoa tenha ido 2 vezes para o role 
+#ela recebera uma punição.
+#caso não tenha ido pelo menos duas vezes,
+#ela recebera um abraço
+
+#inteiro reais texto booleanos
+aux = 1 #controla a condição de repetição
+sim = 0 #guarda a quantidade de quantas vezes a pessoa disse sim
+while(aux < 4):
+    print("você foi ao role da daniele?") #escreve tela 
+    resposta = input() #lê texto 
+    
+    if(resposta == "sim"): #se a resposta for sim
+        sim = sim + 1 #some quantidade de vezes que usuario disse sim
+    aux = aux + 1 #incrementa o aux para controlar o loop/repetição        
+
+if(sim >= 2): #verifica a quantidade de vezes que o usuario disse sim
+     print("peia!")
+     print(sim) #
+else:
+     print("abraço!")
+     print(sim)

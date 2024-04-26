@@ -1,0 +1,35 @@
+<script>
+//simular conversa com uma velha surda 
+//caso respondemos em minusculo
+	//"an, fala mais alto"
+//caso responta em maiusculo
+	//"não desde 19xx"
+//o programa encerrava quando
+	//TCHAU 3 vezes seguidas 
+
+
+let TCHAU = 0
+
+console.log("bom dia meu filho");
+
+while(TCHAU < 3){
+	resposta = prompt();
+		if(resposta == resposta.toUpperCase() && resposta != "TCHAU"){
+			console.log("não, desde 19xx") 
+			TCHAU = 0
+		}else if(resposta == "TCHAU"){
+			TCHAU = TCHAU + 1
+		
+		}else{
+			console.log("an,fala mais alto")
+
+		TCHAU = 0
+
+		}
+		 console.log(TCHAU)									
+    		 	
+}
+    
+			console.log("ate mais meu filho")
+
+</script>

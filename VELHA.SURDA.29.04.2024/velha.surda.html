@@ -1,0 +1,32 @@
+<SCRIPT>
+//simular a convesar com uma velha surda.
+//quando falamos com ela baixo(minusculo),
+//ela respoderá: "AN, FALA MAIS ALTO?"
+//quando falarmos gritando(MAIUSCULA), ela respoderá:
+//"NÃO DESDE 19XX"(XX -> DATA ALEATÓRIA ENTRE 39 E 59)
+//O programa será encerrado apenas quando dissermos(DIGITARMOS) "TCHAU" 3 VEZES SEGUIDAS.
+
+let tchau = 0; //variavel que conta quantas vezes a palavras tchau foi escrita
+
+let resposta; //variavel que  guarda a resposta do usuário
+
+while(tchau < 3){ //ENQUANTO ESTRUTURA DE REPETIÇÃO REPETE UM BLOCO DE CODIGO CASO UMA CONDIÇÃO SEJA VERDADEIRA.
+	resposta = prompt(); //lê a resposta do usuário
+
+		//(se a resposta é maiuscula) E (resposta é diferente de TCHAU)
+	if(resposta.toUpperCase() == resposta && resposta !="TCHAU"){ //verifica se o usuário escreve em maiusculo
+		console.log("NÃO DESDE 19XX"); //imprimir o nome "NÃO DESDE 19XX"
+		tchau = 0;
+	}else if(resposta == "TCHAU"){ //executa a afirmação, dentro do bloco, se determinada condição for verdadeira
+		console.log("AN, FALA MAIS ALTO?");//imprimir o nome "AN, FALA MAIS ALTO?"
+		tchau = tchau + 1;
+	}else{ //será executada se a condição do comando if resulta em false.
+		console.log("AN, FALA MAIS ALTO?");//imprimir o nome "AN, FALA MAIS ALTO?"
+		tchau = 0;
+	
+	}
+	console.log(tchau)
+	//tchau++; PROVISORIO. SO PARA NÃO DEIXAR EM LOOP INFINITO ENQUANTO TESTAMOS 
+}
+
+</SCRIPT>

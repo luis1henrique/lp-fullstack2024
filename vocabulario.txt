@@ -14,3 +14,20 @@ VARIABLE - VARIAVEL ESPAÇO NA MEMORIA ONDE FICAM ARMAZENADOS DADOS.
 IF - SE ESTRUTURAS DE DECISÃO EXECUTA UM BLOCO DE CÓDIGO CASO UMA CONDIÇÃO SEJA ATENDIDA.
 
 WHILE - ENQUANTO ESTRUTURA DE REPETIÇÃO REPETE UM BLOCO DE CODIGO CASO UMA CONDIÇÃO SEJA VERDADEIRA. 
+
+---------
+PROMPT - comando/mensagem para solicitar a entrada do usuário(java script).
+
+INT - INTEGER - INTEIRO - tipo dado usado para representar números inteiros. 
+
+else if - SENÃO SE executa a afirmação, dentro do bloco, se determinada condição for verdadeira
+
+FOR - para:estrutura de repetição.
+
+loop - laço - repetição
+
+console log -  registro do console, Imprime o texto no Console como uma mensage
+
+let - DEIXAR permite que você declare variáveis limitando seu escopo no bloco, instrução, ou em uma expressão na qual ela é usada
+
+GIT - sistema decontrole de versão.

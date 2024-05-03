@@ -2,21 +2,24 @@
 //Faça um programa que leia a quantidade de passageiros e diga qual será o valor total gasto com as passagens.
 //Considere que o valor da passagem é: R$3.000
 //Lembrem de analisar o problema e dividir ele em problemas menores.
-let internacional = 5000;
-let nacional = 3000;//vai inprimi na dela a pergunta. 
 resposta = prompt("quantas passagem?");
 crianca = prompt("tem crianças?quantas?")
+idoso = prompt("tem idoso?quantos?")
 pergunta = prompt("internacional ou nacional?")
-resposta = resposta + crianca
+resposta = resposta - crianca
+resposta = resposta - idoso
 	if(pergunta == "internacional"  && resposta >= 0){
 		valortotal = resposta * 5000; //vai calcular os valores.
-		valorcrianca = crianca * 3000
-		console.log(valortotal + valorcrianca ); //vai mostra o resultado.
+		valorcrianca = crianca * 3000;
+		valoridoso = idoso * 4500;
+		console.log(valortotal + valorcrianca + valoridoso); //vai mostra o resultado.
 	}else if(pergunta == "nacional" && resposta >= 0){
 		valortotal = resposta * 3000;
-		valorcrianca = crianca * 1500
-		console.log(valortotal + valorcrianca);
+		valorcrianca = crianca * 1500;
+		valoridoso = idoso * 2500;
+		console.log(valortotal + valorcrianca + valoridoso);
+	}else{
+		console.log("erro");
 	}
-
 
 </script>

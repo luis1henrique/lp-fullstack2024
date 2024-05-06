@@ -1,5 +1,42 @@
 <script>
-let playe01 = 0
-let playe02 = 0
-resposta = propmt("pedra, papel, tesoura")
-	console.log("playe01" + "x" + "playe02")
+let escolha;
+let player1score = 0;
+let player1 = 0;
+let player2 = 0;
+let player2score = 0;
+while(player1score < 3 && player2score < 3){
+	escolha = prompt("1:pedra 2:papel 3:tesoura");
+	console.log(" player1 " +  player1score + " x " +  player2score  + " player2 ");
+	player2 = parseInt(Math.random()*3+1);
+
+		if(escolha == 1 && player2 == 2){
+			player2score+=1
+			console.log("derrota do player - escolha do player2 =" + player2)
+		}
+		if(escolha == 1 && player2 == 3){
+			player1score+=1
+			console.log("ponto do player - escolha do player2 = " + player2)
+		}
+		if(escolha == 2 && player2 == 1){
+			player1score+=1
+			console.log("ponto do player - escolha do player2 = " + player2)
+		}
+		if(escolha == 2 && player2 == 3){
+			player2score+=1
+			console.log("derrota do player - escolha do player2 = " + player2)
+		}
+		if(escolha == 3 && player2 == 1){
+			player2score+=1
+			console.log("derrota do player - escolha do player2 = " + player2)
+		}
+		if(escolha == 3 && player2 == 2){
+			player1score+=1
+			console.log("ponto do player - escolha do player2 =" + player2)
+		}
+}
+console.log(" player1 " +  player1score + " x " +  player2score  + " player2 ");
+if(player1score == 3){
+	console.log("player1 ganhou")
+}else(player2score == 3)
+	console.log("player2 ganhou")
+</script>

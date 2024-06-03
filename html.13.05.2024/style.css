@@ -1,0 +1,22 @@
+
+h1{
+    color: rgb(0, 0, 0);
+}
+h3{
+    color: aliceblue;
+    background-color: black;
+}
+body{
+   background-color:#a52a2a;
+}
+table{
+    background-color:black ;
+    color: aliceblue;
+}
+h3{
+    writing-mode:horizontal-tb;
+}
+
+#zi{
+    align-content: center;
+}

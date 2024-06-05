@@ -2,13 +2,18 @@ const but = document.getElementById('but');
 const lamp = document.getElementById ( 'lamp' );
 
 function lampOn (){
-    if (lamp.src.endsWith("lampada-png-desligada.png")) {
-    lamp.src = "lampada-png-ligada.png";
-    Botao.textContent = "Ligado";
+    
+    if(lamp.src.endsWith("lampada.desligada.jpg")){
+    lamp.src = "lampada.ligada.jpg";
+    Botao.textContent = "Ligado"
+    but = but + 1 
     }else{
-    lamp.src = "lampada-png-desligada.png";
+    lamp.src = "lampada.desligada.jpg";
     Botao.textContent = "Desligado";
     }
+    
 }
 but.addEventListener ( 'click', lampOn );
+
+
 

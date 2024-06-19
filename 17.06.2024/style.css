@@ -5,13 +5,13 @@ body{
 header{
 background-color:#153d14;
     color:rgb(0, 0, 0);
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     
 }
 header a{
 color: white ;
-margin: 10px;
+margin: 30px;
 text-decoration: none;
 }
 footer{
@@ -31,4 +31,9 @@ footer{
 .linha{
     display: flex;
     justify-content: space-between;
+}
+.coluna{
+    flex: 1;
+    background-color: black;
+    padding: 20px;
 }

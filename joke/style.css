@@ -1,3 +1,25 @@
 body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(10, 202, 250);
+}
+.container{
+    background-color:aquamarine;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0, 0, 0.1);
+}
+.escolha img{
+    height: 200px;
+    width: 200px;
+}
+.placar{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
 }
